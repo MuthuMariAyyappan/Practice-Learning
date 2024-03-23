@@ -1,0 +1,23 @@
+{
+  "name": "practice-learning",
+  "version": "1.0.0",
+  "description": "My Node JS learning practice",
+  "main": "UsingAsyncAwait.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuthuMariAyyappan/Practice-Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuthuMariAyyappan/Practice-Learning/issues"
+  },
+  "homepage": "https://github.com/MuthuMariAyyappan/Practice-Learning#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
