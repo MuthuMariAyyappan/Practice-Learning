@@ -1,0 +1,3 @@
+Using open method
+ This appended lineUsing open method
+ This appended line
