@@ -14,6 +14,22 @@ console.log("Drop elements:", _.drop(arr1,2))
 console.log("Fill the given value:", _.fill(arr1,6,2,4));
 
 console.log("Make the 2d array as k-v objects:", _.fromPairs([["one",1],["two",2],["three",3],["four",'4']]))
-
-const obj ={"one":1,"two":2,"three":3}
+console.time("to pair lodash function")
+const obj ={"one":1,"two":2,"three":4}
 console.log("Make the obj to 2d array",_.toPairs(obj))
+console.timeEnd("to pair lodash function")
+
+
+// to test console.time & console.timeEnd
+console.log("The first task")
+
+console.time("Time Taken")
+for(let i=0; i<= 100000;i++){
+    if(i == 100000){
+        console.log("REACHED LIMIT")
+    }
+    
+}
+console.timeEnd("Time Taken")
+
+console.log("The last task")
